@@ -1,0 +1,243 @@
+body{
+
+	background-image: url(http://www.sumandohistorias.com/wp-content/uploads/2017/03/hasta_el_ultimo_hombre-610x343.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.header{
+	position: absolute;
+   width: 1355px;
+   height: 100px;
+   left: 0px;
+   top: 0px;
+   background-color: transparent; 
+}
+
+#nombre {
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+ #logo {
+    position:absolute;
+    top: 15px;
+    left: 150px;
+    bottom: 0;
+    right: 100;
+    width: 200px;
+    height: 100px;
+    background: url(../IMG/logopagina.jpeg);
+    background-size: cover;
+
+	}
+
+nav{
+	position: fidex;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 120px;
+	padding: 10px 90px;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid black;
+}
+
+nav ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li a{
+	line-height: 80px;
+	color: white;
+	padding: 12px 30px;
+	text-decoration: none;	
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	background: rgba(59, 59, 59);
+	border-radius: 6px;
+}
+
+section {
+    position: relative;
+    margin: 30px;
+    left: 200px;
+    width: 150px;
+    height: 53px;
+    background: black;
+}
+
+aside#Mel{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 180px;
+    height: 200px;
+    background-image: url(..//IMG/Mel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+article#Mel1{
+    position: absolute;
+    left: 300px;
+    top: 0;
+    width: 700px;
+    height: 200px;
+    background-color: darkolivegreen;
+    color: black;
+    text-align: center;
+}
+
+aside#Doss{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 180px;
+    height: 200px;
+    background-image: url(..//IMG/Doss.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+article#Doss1{
+    position: absolute;
+    left: 300px;
+    top: 235px;
+    width: 700px;
+    height: 200px;
+    background-color: darkolivegreen;
+    color: black;
+    text-align: center;
+}
+
+aside#Dorothy{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 180px;
+    height: 200px;
+    background-image: url(..//IMG/Dorothy.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+article#Dorothy1{
+    position: absolute;
+    left: 300px;
+    top: 470px;
+    width: 700px;
+    height: 200px;
+    background-color: darkolivegreen;
+    color: black;
+    text-align: center;
+}
+
+aside#Vince{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 180px;
+    height: 200px;
+    background-image: url(..//IMG/Vince.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+article#Vince1{
+    position: absolute;
+    left: 300px;
+    top: 705px;
+    width: 700px;
+    height: 200px;
+    background-color: darkolivegreen;
+    color: black;
+    text-align: center;
+}
+
+aside#Sam{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 180px;
+    height: 200px;
+    background-image: url(..//IMG/Sam.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+article#Sam1{
+    position: absolute;
+    left: 300px;
+    top: 940px;
+    width: 700px;
+    height: 200px;
+    background-color: darkolivegreen;
+    color: black;
+    text-align: center;
+}
+
+aside#Luke{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 180px;
+    height: 200px;
+    background-image: url(..//IMG/Luke.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+article#Luke1{
+    position: absolute;
+    left: 300px;
+    top: 1175px;
+    width: 700px;
+    height: 200px;
+    background-color: darkolivegreen;
+    color: black;
+    text-align: center;
+}
+
+aside#Richard{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 180px;
+    height: 200px;
+    background-image: url(..//IMG/Richard.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+article#Richard1{
+    position: absolute;
+    left: 300px;
+    top: 1410px;
+    width: 700px;
+    height: 200px;
+    background-color: darkolivegreen;
+    color: black;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    top: 1800px;
+    left: 200PX;
+    width: 1000px;
+    height: 20px;
+    background: black;
+    color: white;
+    text-align: center;
+}

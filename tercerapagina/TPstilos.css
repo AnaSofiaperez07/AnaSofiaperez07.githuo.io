@@ -1,0 +1,88 @@
+body{
+
+	background-image: url(http://www.sumandohistorias.com/wp-content/uploads/2017/03/hasta_el_ultimo_hombre-610x343.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed; 
+}
+
+.header{
+	position: absolute;
+        width: 1355px;
+        height: 100px;
+        left: 0px;
+        top: 0px;
+        background-color: transparent; 
+}
+
+#nombre {
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+ #logo {
+    position:absolute;
+    top: 15px;
+    left: 100px;
+    bottom: 0;
+    right: 100;
+    width: 200px;
+    height: 100px;
+    background: url(../IMG/logopagina.jpeg);
+    background-size: cover;
+
+	}
+
+nav{
+	position: fidex;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 120px;
+	padding: 10px 90px;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid black;
+}
+
+nav ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li a{
+	line-height: 80px;
+	color: white;
+	padding: 12px 30px;
+	text-decoration: none;	
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	background: rgba(59, 59, 59);
+	border-radius: 6px;
+}
+
+video{
+	position: absolute;
+   width: 800px;
+   aspect-ratio: auto 800 / 500;
+   height: 500px; 
+	left:300PX ;
+}
+
+footer {
+    position: absolute;
+    top: 650px;
+    left: 200PX;
+    width: 1000px;
+    height: 20px;
+    background: black;
+    color: white;
+    text-align: center;
+}
